@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container_counter{
+    display: flex;
+    margin: 1vw;
+}
+.container_counter button{
+    padding: 1em;
+}
+#counter {
+    margin: 1em;
+}
+
+@media screen and (max-width:420px) {
+    .navbar_nav{
+        display: none;
+    }
+}
